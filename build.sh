@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 cd extension
-zip -r ../fix-telegram-web.zip *
+zip -r ../maximize-telegram-web.zip *

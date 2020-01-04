@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Fix Telegram Web",
+  "name": "Maximize Telegram Web",
   "version": "1.0.0",
   "description": "Maximize Telegram Web so that large messages (like code samples) can be easily read",
   "icons": {
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "css": [
-        "fix.css"
+        "maximize.css"
       ],
       "matches": [
         "https://web.telegram.org/*"
