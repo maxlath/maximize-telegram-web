@@ -1,0 +1,14 @@
+.im_page_wrap, .im_message_wrap, .im_send_form_wrap, .im_send_panel_wrap, .im_send_form, .tg_head_split{
+  max-width: 100000px !important;
+}
+.im_page_split{
+  display: flex !important;
+}
+
+.im_page_split > :first-child{
+  max-width: 300px;
+}
+
+.im_page_split > :last-child{
+  flex: 1;
+}
