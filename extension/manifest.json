@@ -3,6 +3,7 @@
   "name": "Maximize Telegram Web",
   "version": "1.0.0",
   "description": "Maximize Telegram Web so that large messages (like code samples) can be easily read",
+  "homepage_url": "https://github.com/maxlath/maximize-telegram-web",
   "icons": {
     "32": "icons/logo.32.png",
     "48": "icons/logo.48.png",
