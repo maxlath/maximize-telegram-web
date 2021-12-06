@@ -1,3 +1,26 @@
+/* WebZ */
+
+.messages-container, .message-content, .middle-column-footer{
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+/* >= 0.5.6 */
+.bubbles-inner, .bubble-content-wrapper, .bubbles-inner:not(.is-channel) .message{
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.bubbles-inner{
+  max-width: 100% !important;
+}
+
+.bubble.is-out .bubble-content-wrapper{
+  transform: none !important;
+  padding-left: 1em;
+}
+
+/* < 0.5 */
 .im_page_wrap, .im_message_wrap, .im_send_form_wrap, .im_send_panel_wrap, .im_send_form, .tg_head_split{
   max-width: 100000px !important;
 }
