@@ -1,7 +1,12 @@
 /* WebZ */
 
-.messages-container, .message-content, .middle-column-footer{
+.messages-container, .message-content{
   width: auto !important;
+  max-width: 100% !important;
+}
+
+.middle-column-footer{
+  width: 100% !important;
   max-width: 100% !important;
 }
 
